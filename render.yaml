@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ezechiel-portfolio
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PHP_VERSION
+        value: 8.0
+      - key: DOCUMENT_ROOT
+        value: /var/www/html
+    healthCheckPath: /
