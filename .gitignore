@@ -1,0 +1,37 @@
+# Database files (keep structure, ignore data for development)
+database/*.sqlite
+database/*.db
+
+# Environment files
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+access_log
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Uploads (if you have an uploads directory)
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+cache/
+*.cache
+config.bat
+node_modules
